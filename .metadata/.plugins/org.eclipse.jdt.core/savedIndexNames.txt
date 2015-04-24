@@ -1,3 +1,2 @@
-INDEX VERSION 1.126+D:\Work\Android\Workspace\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.126+D:\Work\Android\Workspaces\TQReposit\.metadata\.plugins\org.eclipse.jdt.core
 1284074322.index
-4241965440.index
