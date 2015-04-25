@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="@string/menuback" />
+        android:text="@string/menuback"
+        android:onClick="menuback" />
 
 </RelativeLayout>

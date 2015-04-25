@@ -1,11 +1,11 @@
 package com.example.textquest;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MenuActivity extends ActionBarActivity {
 
@@ -34,18 +34,21 @@ public class MenuActivity extends ActionBarActivity {
 		return super.onOptionsItemSelected(item);
 	}
 
-	public void startgame() {
+	public void startgame(View view) {
 		Intent intent = new Intent(MenuActivity.this, GameActivity.class);
         startActivity(intent);
-        onDestroy();
 	}
 
-	public void continuegame() {
+	public void continuegame(View view) {
 		
 	}
 
-	public void author() {
+	public void author(View view) {
 		Intent intent = new Intent(MenuActivity.this, HelActivity.class);
-        onPause();
+        startActivity(intent);
+	}
+	public void stats(View view) {
+		Intent intent = new Intent(MenuActivity.this, ScoreActivity.class);
+        startActivity(intent);
 	}
 }

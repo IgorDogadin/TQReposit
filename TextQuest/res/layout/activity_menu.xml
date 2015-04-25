@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Здравствуй искатель приключений!" />
+        android:text="@string/menugreet" />
 
     <Button
         android:id="@+id/button1"
@@ -21,16 +21,6 @@
         android:layout_centerVertical="true"
         android:text="@string/continuegame" 
         android:onClick="continuegame"/>
-
-    <Button
-        android:id="@+id/button4"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
-        android:layout_centerHorizontal="true"
-        android:text="@string/author"
-        android:onClick="author" />
     
 
     <Button
@@ -41,5 +31,24 @@
         android:layout_centerHorizontal="true"
         android:text="@string/startgame" 
         android:onClick="startgame"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/statistic"
+        android:onClick="stats" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:onClick="author"
+        android:text="@string/author" />
 
 </RelativeLayout>

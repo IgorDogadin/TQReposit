@@ -11,4 +11,7 @@
     <string name="continuegame">Continue Game</string>
     <string name="author">Author</string>
     <string name="menuback">Back</string>
+    <string name="menugreet">Приветствуем тебя, любитель головоломок.</string>
+    <string name="statistic">Statistic</string>
+    <string name="score">Back</string>
 </resources>
